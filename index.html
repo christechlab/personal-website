@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/index.css">
+    <script src="https://kit.fontawesome.com/2bcf64ec76.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--oblast nadpisu-->
+    <header>
+        <!--navigační lišta-->
+        <ul class="navbar">
+            <li class="li_logo"><a class="navbar_href logo" href=""> <h2>c</h2> </span></a></li>
+            <li><a class="navbar_href learn_more_a" href="#about_me">o mně</a></li>
+            <li><a class="navbar_href learn_more_a learn_more_a_projects" href="#projekty">projekty</a></li>
+            <li class="contact"><a class="navbar_href contact" href="mailto:chris.techlab.007@gmail.com"> 
+                <i class="fa-regular fa-envelope mail_icon"></i> chris.techlab.007@gmail.com</a></li>
+        </ul>
+        <!--můj popis-->
+        <section class="description">
+            <h2 class="description_header"> <span>z</span><span>d</span><span>r</span><span>a</span><span>v</span>í<span>m</span><span>,</span>
+                <span>j</span><span>s</span><span>e</span><span>m</span>
+                <span>K</span><span>r</span><span>y</span><span>š</span><span>t</span><span>o</span><span>f</span>
+            </h2>
+            <div class="description_content_container">
+                <h3 class="description_content">
+                web developer v procesu učení...
+                </h3>
+                    <button type="button" class="description_aboutme_button">
+                            <a href="#about_me" class="description_aboutme_button_a">víc o mně</a>
+                    </button>
+            </div>
+        </section>
+
+        <section class="new_project_cont">
+            <a href="#projekty" class="new_project_href">
+                <button class="new_project_button">
+                    <div class="new_project_plus_cont">
+                        <div class="new_project_plus_verticall"></div>
+                        <div class="new_project_plus_horizontall"></div>
+                    </div>
+                    <h3 class="new_project_des">pojďme vytvořit něco nového!</h3>
+                </button>
+            </a>
+        </section>
+
+        <!--tlačítko s šipkou-->
+        <!--border okolo tlačítka-->
+        <div class="scrd_button_container">
+            <!--samotné tlačítko-->
+            <a href="#main" class="scrd_button_a">
+                <button class="scrd_button" type="button">
+                    <!--levá část šipky-->
+                    <div class="scrd_button_arrow left"></div>
+                    <!--pravá část šipky-->
+                    <div class="scrd_button_arrow right"></div>
+                </button>
+            </a>
+        </div>
+        <!--social media bar-->
+        <div class="soc_media_bar_cont">
+            <a href="https://www.instagram.com/chris_tech_lab"><i class="fa-brands fa-instagram insta_icon" ></i></a>
+            <a href=""><i class="fa-brands fa-square-github github_icon"></i></a>
+        </div>
+    </header>
+    <!--hlavní obsah-->
+    <main id="main">
+        <section id="about_me" class="about_me_container">
+            <h2 class="about_me_header">O mně</h2>
+            <br>
+            <ol class="aboutme_content">
+                <li>jsem student gymplu, který se ve volném čase věnuje tvorbě webů.</li><br>
+                <li>Jak jsem se k tomu dostal?
+                    tak mě vždycky přitahovaly technologie a o tohle téma jsem se zajímal už delší dobu, baví mě na tom
+                    rozmanitost kterou tvorba webů nabízí... od návrhů po kódování a pak spuštění webu, je to něco co mě naplňuje
+                    a cítím se přitom jako ryba ve vodě.</li> <br>
+                <li>Zatím dovedu tvořit pouze jednodušší weby (osobní, informační, portfolia...)
+                    ale dávám tomu půl maximálně rok a moje znalosti postoupí značně kupředu</li>
+            </ol>
+            <!-- <p class="aboutme_content">
+                <span> jsem student gymplu, který se ve volném čase věnuje tvorbě webů.</span> <br> <br><span> Jak jsem se k tomu dostal?
+                tak mě vždycky přitahovaly technologie a o tohle téma jsem se zajímal už delší dobu, baví mě na tom
+                rozmanitost kterou tvorba webů nabízí... od návrhů po kódování a pak spuštění webu, je to něco co mě naplňuje
+                a cítím se přitom jako ryba ve vodě.</span> <br> <br><span> Zatím dovedu tvořit pouze jednodušší weby (osobní, informační, portfolia...)
+                ale dávám tomu půl maximálně rok a moje znalosti postoupí kupředu <br></span>
+            </p> -->
+            <br>
+            <h3>webu zdar</h3>
+        </section>
+        <section class="am_images_container">
+            
+        </section>
+        
+        <section id="projekty" class="projects_container">
+            <h2 class="projects_header">projekty</h2>
+            <div class="projects_content_container">
+                <ol class="projects_content">
+                    <li>
+                        <h3>co dělám?</h3>
+                        <p>dovedu tvořit menší osobní, informační weby</p>
+                    </li>
+                    <li>
+                        <h3>jak si můžu nechat udělat web?</h3>
+                        <p>Napište mi a domluvíme se...</p>
+                    </li>
+                    <li>
+                        <h3>co mě to bude stát?</h3>
+                        <p>pod 2000kč a hodinu vašeho času.</p>
+                    </li>
+                    <li>
+                        <h3>status</h3>
+                        <p>momentálně pracuji na mobilní verzi svého webu</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="message_me_container">
+            <a href="mailto:chris.techlab.007@gmail.com"><i class="fa-solid fa-envelope mail2_icon" ></i></a>
+        </section>
+
+    </main>
+    <!--patička-->
+    <footer>
+        <section class="footer_content_container">
+            <ul class="footer_content_sub_container">
+
+                <li class="footer_content_section">
+                    <ul class="footer_content">
+                        <li><h3>chris</h3></li>
+                        <li><a href="#about_me"><i class="fa-regular fa-user"></i> o mně</a></li>
+                        <li><a href="#projekty"><i class="fa-regular fa-file-code"></i> projekty</a></li>
+                    </ul>
+                </li>
+
+                <li class="footer_content_section">
+                    <ul class="footer_content">
+                        <li><h3>má práce</h3></li>
+                        <li><a href="">under construction : )</a></li>
+                    </ul>
+                </li>
+
+                <li class="footer_content_section">
+                    <ul class="footer_content">
+                        <li><h3>kontakt</h3></li>
+                        <li><a href="mailto:chris.techlab.007@gmail.com"><i class="fa-regular fa-envelope"></i><span></span> chris.techlab.007@gmail.com</a></li>
+                        <li class="footer_instagram_link"><a href="https://www.instagram.com/chris_tech_lab/"><i class="fa-brands fa-instagram"></i><span></span> chris_tech_lab</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="Laws_and_love">
+                <h3 class="laws"><b>© chris_tech_lab</b> - všechna práva vyhrazena</h3>
+                <h4 class="love">vytvořeno s <span>&#128158</span>...</h4>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
