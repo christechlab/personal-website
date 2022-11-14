@@ -394,7 +394,7 @@ main {
         ". am am am am am am am . . ami ami ami ami ."
         ". am am am am am am am . . ami ami ami ami ."
         ". am am am am am am am . . ami ami ami ami ."
-        ". . . . . . . . . . . . . . ."
+        ". . . . . . . . . . ami ami ami ami  ."
         ". prj prj prj prj prj prj prj . . msm msm msm . ."
         ". prj prj prj prj prj prj prj . . msm msm msm . ."
         ". prj prj prj prj prj prj prj . . msm msm msm . ."
@@ -440,6 +440,12 @@ main {
 
 .am_images_container {
     grid-area: ami;
+}
+
+.profile_pic {
+    height: 100%;
+    filter: opacity(75%);
+    border-radius: 1rem;
 }
 
 .projects_container {
@@ -519,7 +525,7 @@ main {
 footer {
     display: grid;
     height: 40vh;
-    background-image: url(/styles/images/IMG_20221108_214647190.jpg);
+    background-image: url(/styles/images/footer-background-pic.jpg);
 }
 
 .footer_content_container {
